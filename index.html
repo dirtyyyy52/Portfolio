@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфолио</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0f0f0f;
+      color: #f0f0f0;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+    }
+
+    header { padding: 80px 0 48px; }
+
+    .label {
+      color: #6ee7b7;
+      font-size: 13px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 10px;
+    }
+
+    .role { color: #6ee7b7; font-size: 1.1rem; margin-bottom: 18px; }
+
+    .bio { color: #888; font-size: 0.95rem; line-height: 1.75; max-width: 520px; }
+
+    section { margin-bottom: 60px; }
+
+    .section-title {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      color: #555;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+
+    .skill {
+      background: #1a1a1a;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 6px;
+      padding: 6px 14px;
+      font-size: 0.85rem;
+    }
+
+    .projects { display: flex; flex-direction: column; gap: 14px; }
+
+    .project-card {
+      display: block;
+      background: #1a1a1a;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      padding: 20px 24px;
+      text-decoration: none;
+      color: inherit;
+      transition: border-color 0.2s;
+    }
+
+    .project-card:hover { border-color: #6ee7b7; }
+    .project-card h3 { font-size: 1rem; font-weight: 600; margin-bottom: 8px; }
+    .project-card p { color: #888; font-size: 0.88rem; line-height: 1.65; margin-bottom: 14px; }
+
+    .tags { display: flex; gap: 8px; flex-wrap: wrap; }
+
+    .tag {
+      background: rgba(110, 231, 183, 0.1);
+      color: #6ee7b7;
+      border-radius: 4px;
+      padding: 2px 10px;
+      font-size: 0.78rem;
+    }
+
+    .contacts { display: flex; flex-direction: column; gap: 14px; }
+    .contact-row { display: flex; gap: 16px; align-items: baseline; }
+    .contact-label { color: #555; font-size: 0.82rem; width: 70px; flex-shrink: 0; }
+    .contact-row a { color: #6ee7b7; text-decoration: none; font-size: 0.93rem; }
+    .contact-row a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <p class="label">Portfolio</p>
+    <h1>Illia</h1>   <h1>Hnidash</h1>            <!-- ← своё имя -->
+    <p class="role">Frontend Developer</p>  <!-- ← своя роль -->
+    <p class="bio">
+        Hi! I'm 17 and I'm studying web development.  <!-- ← о себе -->
+    </p>
+  </header>
+
+  <section>
+    <p class="section-title">Skills</p>
+    <div class="skills">
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">JavaScript</span>
+      <!-- добавляй/убубирай навыки -->
+    </div>
+  </section>
+
+  <section>
+    <p class="section-title">Projects</p>
+    <div class="projects">
+      <a href="https://dirtyyyy52.github.io/super-mario/" class="project-card">
+        <h3>Super-Mario</h3>
+        <p>A web-based clone of the classic Super Mario Bros built using HTML5 and JavaScript, hosted on GitHub Pages. It faithfully replicates the original 1985 gameplay, mechanics, and retro aesthetics for a seamless in-browser experience.</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+        </div>
+      </a>
+
+
+
+        <a href="https://dirtyyyy52.github.io/GYM/" class="project-card">
+        <h3>PULSE-Gym</h3>
+        <p>A high-energy, dark-themed landing page designed for a premium fitness club. Built with strict attention to modern CSS practices, featuring bold contrasts, dynamic responsive grids, and interactive coach profiles.</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+        </div>
+      </a>
+
+
+
+        <a href="https://dirtyyyy52.github.io/Coffee-shop/" class="project-card">
+        <h3>Coffee-Shop</h3>
+        <p>A minimalist and modern landing page for a fictional specialty coffee shop. It features structured grid layouts, elegant typography, responsive media queries, and smooth visual presentation for clean aesthetics.</p>
+        <div class="tags">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+        </div>
+      </a>
+
+
+    </div>
+  </section>
+
+  <section>
+    <p class="section-title">Contacts</p>
+    <div class="contacts">
+      <div class="contact-row">
+        <span class="contact-label">Email</span>
+        <a href="mailto:youremail@gmail.com">plillagnidasch@gmail.com</a>
+      </div>
+      <div class="contact-row">
+        <span class="contact-label">GitHub</span>
+        <a href="https://github.com/username">https://github.com/dirtyyyy52</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
