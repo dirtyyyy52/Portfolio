@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dec95783-01d0-45f9-bf4f-a2c4addc06c4" name="Changes" comment="Renamed file index.html">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="dec95783-01d0-45f9-bf4f-a2c4addc06c4" name="Changes" comment="Added my landing page NoodlPoznan">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1784751074691</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added my landing page NoodlPoznan">
+      <option name="closed" value="true" />
+      <created>1784926375689</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1784926375689</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,6 +156,7 @@
     <MESSAGE value="Added my information" />
     <MESSAGE value="Added my 2 pages" />
     <MESSAGE value="Renamed file index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Renamed file index.html" />
+    <MESSAGE value="Added my landing page NoodlPoznan" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added my landing page NoodlPoznan" />
   </component>
 </project>
